@@ -1,52 +1,73 @@
-.hero-background{
-    display: block;
+.land-hero {
+    position: relative;
     width: 100%;
-    z-index: -2;
-    position: fixed;
 }
 
-.land-overlay{
-    background-color: rgba(0, 0, 0, 0.336);
+.hero-background {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;   
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.land-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.336);
     z-index: -1;
-    transition: .8s ease-out;
-    
+    transition: .8s ease-in-out;
+}
+
+.land-hero:has(.hero-content:hover) .hero-background {
+    filter: blur(1px);
+}
+
+.land-hero:has(.hero-content:hover) .land-overlay {
+    background-color: rgba(0, 0, 0, 0.493);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    padding: 50px 0; 
 }
 
 
-.land-overlay:hover{
-    background-color: rgba(0, 0, 0, 0.637);
-}
+
 
 .land-overlay:hover ~ .hero-background{
     filter: blur(2px);
 } 
 
-.land-hero{
-    padding: 0;
-    margin: 0;
-}
+
 
 .land-hero h1{
     padding-left: 20px;
     color: white;
     font-size: large;
+    text-align: left;
 }
 
 .land-hero h2{
     padding-left: 20px;
     color: white;   
     font-size: small;
+    text-align: left;
 }
 
 .land-hero p{
     color: white;
-    font-size: 10px;
+    font-size: 15px;
     padding-left: 20px;
+    opacity: 0;
+    text-align: left;
+
 }
 
 .land-hero button{
@@ -70,4 +91,34 @@
 
 .land-hero button:hover{
     background-color: #FF0037;
+}
+
+@media screen and (min-width: 768px) {
+
+    .land-hero{
+        margin: auto;
+        min-height: 500px;
+    }
+
+    .land-hero h1{
+        font-size: 40px;
+    }
+
+    .land-hero h2{
+        font-size: 30px;
+    }
+
+    .land-hero p{
+        opacity: 100;
+    }
+
+    .land-hero button{
+        width: 300px;
+        font-size: xx-large;
+    }
+
+    .land-hero button img{
+        max-height: 40px;
+    }
+
 }

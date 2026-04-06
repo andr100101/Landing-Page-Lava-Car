@@ -1,0 +1,36 @@
+.maps-integration{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.maps-integration h1{
+    color: black;
+    text-align: left;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.map-embed iframe{
+    width: 80%;
+    height: 200px;
+}
+
+.map-embed p{
+    text-align: left;
+    padding-left: 60px;
+}
+
+@media screen and (min-width: 768px) {
+    .map-embed iframe{
+        height: 400px;
+    }
+
+    .map-embed p{
+        text-align: center;
+        padding-left: 0;
+    }
+}

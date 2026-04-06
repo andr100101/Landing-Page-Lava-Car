@@ -1,0 +1,73 @@
+.hero-background{
+    display: block;
+    width: 100%;
+    z-index: -2;
+    position: fixed;
+}
+
+.land-overlay{
+    background-color: rgba(0, 0, 0, 0.336);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;   
+    z-index: -1;
+    transition: .8s ease-out;
+    
+}
+
+
+.land-overlay:hover{
+    background-color: rgba(0, 0, 0, 0.637);
+}
+
+.land-overlay:hover ~ .hero-background{
+    filter: blur(2px);
+} 
+
+.land-hero{
+    padding: 0;
+    margin: 0;
+}
+
+.land-hero h1{
+    padding-left: 20px;
+    color: white;
+    font-size: large;
+}
+
+.land-hero h2{
+    padding-left: 20px;
+    color: white;   
+    font-size: small;
+}
+
+.land-hero p{
+    color: white;
+    font-size: 10px;
+    padding-left: 20px;
+}
+
+.land-hero button{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #FF0037;
+    color: white;
+    border-radius: 5px;
+    font-size: medium;
+    transition: .6s ease-out;
+    padding: 5px;
+}
+
+.land-hero button img{
+    max-height: 25px;
+    padding-right: 10px;
+}
+
+.land-hero button:hover{
+    background-color: #FF0037;
+}

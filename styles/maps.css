@@ -20,7 +20,6 @@
 }
 
 .map-embed p{
-    text-align: left;
     padding-left: 60px;
 }
 
@@ -29,6 +28,9 @@
         height: 400px;
     }
 
+    .maps-integration h1{
+        font-size: 30px;
+    }
     .map-embed p{
         text-align: center;
         padding-left: 0;

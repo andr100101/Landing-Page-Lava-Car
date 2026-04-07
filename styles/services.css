@@ -1,0 +1,74 @@
+.land-services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.land-services h1{
+    color: white;
+    font-size: larger;
+    font-weight: 800;
+}
+
+.services-content{
+    text-align: center;
+}
+
+.service-block{
+    margin-bottom: 30px;
+    border-style: solid;
+    border-color: #ff0037;
+    width: 340px;
+    height: 240px;
+    border-radius: 25px;
+    transition: .5s ease-out;
+    background-color: rgba(5, 5, 5, 0.555);
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.507);
+    
+}
+
+.service-block:hover{
+    background-color: #05050534;
+    box-shadow: 10px 10px 4px black;
+}
+
+.service-block img{
+    max-height: 80px;
+    padding-bottom: 0;
+    bottom: 0;
+}
+
+.service-block h1{
+    color: white;
+    font-size: large;
+    font-weight: 650;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.service-block p{
+    color: white;
+    
+}
+
+@media screen and (min-width: 768px) {
+    .services-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .land-services h1{
+        font-size: xx-large;
+    }
+
+    .service-block:nth-child(3){
+        grid-column: 1 / span 2;
+        justify-self: center;
+    }
+
+
+    .service-block h1{
+        font-size: larger;
+    }
+}

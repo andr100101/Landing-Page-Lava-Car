@@ -1,0 +1,58 @@
+.product-marks{
+    padding-top: 40px;
+    color: white;
+    font-size: medium;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    text-align: center;
+}
+
+.product-marks h1{
+    font-size: large;
+    padding: 10px;
+}
+
+.carousel{
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+    position: relative; 
+    width: max-content;
+    max-width: 700px;
+}
+
+
+.carousel-track{
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 60px;
+    width: max-content;
+    animation: spin 20s infinite linear;
+}
+
+
+.product-marks img{
+    flex: 0 0 0;
+    max-width: 125px;
+    object-fit: contain;
+    transition: .3s;
+    flex-shrink: 0;
+
+}
+
+@keyframes spin {
+    from{
+        translate: 0;
+    }
+    to{
+        translate: -50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .product-marks h1{
+        font-size: x-large;
+    }
+}

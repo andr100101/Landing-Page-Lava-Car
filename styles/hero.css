@@ -24,6 +24,10 @@
     transition: .8s ease-in-out;
 }
 
+.land-overlay.scroll{
+    background-color: rgb(0, 0, 0);
+}
+
 .land-hero:has(.hero-content:hover) .hero-background {
     filter: blur(1px);
 }
@@ -75,7 +79,7 @@
     flex-direction: row;
     margin-left: 20px;
     width: 150px;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #FF0037;
     border-color: #FF0037;
     color: white;
     border-radius: 5px;
@@ -94,7 +98,8 @@
 }
 
 .land-hero button:hover{
-    background-color: #FF0037;
+    background-color: #ff00379a;
+    box-shadow:  0px 0px 20px 5px #FF0037;
 }
 
 @media screen and (min-width: 768px) {

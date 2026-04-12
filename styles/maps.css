@@ -4,8 +4,29 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    transition: .6s ease-in-out;
 }
 
+.maps-integration.scroll{
+    background-color: rgb(26, 26, 26);
+}
+
+.maps-integration.scroll h1{
+    color: white;
+}
+
+.maps-integration.scroll p{
+    color: white;
+}
+
+.maps-integration.scroll iframe{
+    box-shadow: rgba(255, 255, 255, 0.432) 0px 0px 30px 10px;
+    transition: .7s ease-in-out;
+}
+
+.maps-integration:hover iframe{
+    box-shadow: rgba(255, 255, 255, 0.192) 0px 0px 30px 10px;
+}
 .maps-integration h1{
     color: black;
     text-align: left;

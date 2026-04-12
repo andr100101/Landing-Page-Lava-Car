@@ -1,0 +1,30 @@
+.about-us{
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.about-us h2{
+    max-width: fit-content;
+    padding: 4px;
+    border-color: #ff0037;
+    border-style: solid;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.about-us p{
+    text-align: left;
+    font-size: 13px;
+}
+
+@media screen and (min-width: 768px) {
+    .about-us h2{
+        font-size: xx-large;
+    }
+
+    .about-us p{
+        font-size: 20px;
+    }
+    
+}

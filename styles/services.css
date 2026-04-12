@@ -4,9 +4,10 @@
     align-items: center;
     width: 100%;
     transition: .3s ease-in-out;
+    overflow: hidden;
 }
 
-.land-services h1{
+.land-services h2{
     padding-bottom: 10px;
     color: white;
     font-size: x-large;
@@ -58,7 +59,7 @@
     transition: .3s ease-in-out;
 }
 
-.service-block h1{
+.service-block h2{
     color: white;
     font-size: 20px;
     font-weight: 650;
@@ -83,7 +84,7 @@
     max-height: 93px;
 }
 
-.service-block:hover h1{
+.service-block:hover h2{
     font-size: 22px;
 }
 
@@ -95,12 +96,20 @@
 @media screen and (min-width: 768px) {
     
 
-    .land-services h1{
+    .land-services h2{
         font-size: xx-large;
     }
 
 
-    .service-block h1{
+    .service-block h2{
         font-size: larger;
     }
+
+    .service-block img{
+        max-height: 100px;
+    }
+
+    .service-block:hover img{
+    max-height: 113px;
+}
 }

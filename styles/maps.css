@@ -11,7 +11,7 @@
     background-color: rgb(26, 26, 26);
 }
 
-.maps-integration.scroll h1{
+.maps-integration.scroll h2{
     color: white;
 }
 
@@ -27,7 +27,7 @@
 .maps-integration:hover iframe{
     box-shadow: rgba(255, 255, 255, 0.192) 0px 0px 30px 10px;
 }
-.maps-integration h1{
+.maps-integration h2{
     color: black;
     text-align: left;
     padding: 20px;
@@ -49,7 +49,7 @@
         height: 400px;
     }
 
-    .maps-integration h1{
+    .maps-integration h2{
         font-size: 30px;
     }
     .map-embed p{

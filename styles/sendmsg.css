@@ -18,7 +18,7 @@
     box-shadow: 0px 0px 10px 5px #ff00378a;
 }
 
-.mensage-box h1{
+.mensage-box h2{
     text-align: center;
     color: white;
     font-weight: 700;
@@ -60,7 +60,7 @@
         text-align: center;
     }
 
-    .mensage-box h1{
+    .mensage-box h2{
         font-size: 25px;
     }
 

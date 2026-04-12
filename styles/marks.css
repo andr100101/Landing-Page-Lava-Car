@@ -9,7 +9,7 @@
     text-align: center;
 }
 
-.product-marks h1{
+.product-marks h2{
     font-size: large;
     padding: 10px;
 }
@@ -53,7 +53,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .product-marks h1{
+    .product-marks h2{
         font-size: x-large;
     }
 }

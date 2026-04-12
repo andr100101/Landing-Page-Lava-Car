@@ -1,22 +1,26 @@
 footer{
     margin-top: 50px;
-    padding: 10px;
     text-align: left;
     background-color: black;
+    max-width: 100dvw;
     width: 100%;
     color: white;
 }
 
-footer a{
+.footer-content{
+    padding-left: 30px;
+}
+
+.footer-content a{
     color: #FF0037;
     display: flex;
     gap: 10px;
 }
 
-footer p{
+.footer-content p{
     font-size: 10px;
 }
 
-footer a svg{
+.footer-content a svg{
     max-width: 20px;
 }

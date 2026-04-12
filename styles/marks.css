@@ -35,7 +35,7 @@
     flex-wrap: nowrap;
     gap: 60px;
     width: max-content;
-    animation: spin 30s infinite linear;
+    animation: spin 20s infinite linear;
 }
 
 
@@ -60,5 +60,9 @@
 @media screen and (min-width: 768px) {
     .product-marks h2{
         font-size: x-large;
+    }
+
+    .carousel-track{
+        animation: spin 30s infinite linear;
     }
 }

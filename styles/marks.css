@@ -12,6 +12,11 @@
 .product-marks h2{
     font-size: large;
     padding: 10px;
+    transition: .5s ease-in-out;
+}
+
+#mark-txt{
+    transform: translateX(100%);
 }
 
 .carousel{

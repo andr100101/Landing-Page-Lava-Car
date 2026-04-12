@@ -11,6 +11,11 @@
     transition: .8s ease-out;
     background-color: rgba(5, 5, 5, 0.555);
     box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.507);
+    transform: translateY(140%);
+}
+
+.mensage-box.move{
+    transform: translateY(0%);
 }
 
 .mensage-box:hover{

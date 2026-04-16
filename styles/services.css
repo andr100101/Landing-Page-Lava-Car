@@ -54,7 +54,7 @@
 
 .service-block img{
     max-height: 80px;
-    width: fit-content;
+    max-width: 100px;
     align-self: center;
     transition: .3s ease-in-out;
 }

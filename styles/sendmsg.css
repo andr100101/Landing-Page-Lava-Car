@@ -46,6 +46,7 @@
     font-weight: 800;
     transition: .6s ease-out;
     padding: 5px;
+    cursor: pointer;
 }
 
 .mensage-box button img{

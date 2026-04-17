@@ -86,6 +86,7 @@
     font-size: medium;
     transition: .6s ease-out;
     padding: 5px;
+    cursor: pointer;
 }
 
 .land-hero a{

@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="styles/aboutus.css">
     <link rel="stylesheet" href="styles/comparison.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/review.css">
 </head>
 
 
@@ -66,6 +67,7 @@
         <p><u>Rua Astolfo Macedo de Souza, 460 <br> Paula Freitas - Paraná</u></p>
     </div>
     <!-- Google Maps embed-->
+
 
     
     <!-- Services-->
@@ -128,6 +130,47 @@
         </div>
     </div>
     <!-- Services-->
+    
+
+    <!--before/after comparison-->
+    <h2>Resultados que realmente fazem diferença!</h2>
+    <div class="comparisons">
+        
+        <div class="comparison-block">
+            <div class="images-comparison">
+                <img class="before-image" src="images/comparison/1/1.webp">
+                <img class="after-image" src="images/comparison/1/2.webp">
+            </div>
+            <div class="slider-line"></div>
+            <div class="slider-button"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="black" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 15 12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9" />
+            </svg>
+            </div>
+            <input class="slider" type="range" min="0" max="100" value="50">
+        </div>
+
+        <div class="comparison-block">
+            <div class="images-comparison">
+                <img class="before-image" src="images/comparison/2/1.webp">
+                <img class="after-image" src="images/comparison/2/2.webp">
+            </div>
+            <div class="slider-line"></div>
+            <div class="slider-button"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="black" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 15 12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9" />
+            </svg>
+            </div>
+            <input class="slider" type="range" min="0" max="100" value="50">
+        </div>
+    </div>
+    <!--before/after comparison-->
+
+    <!--leave a review-->
+    <div class="review-us">
+        <h2>Gostou do resultado? Sua avaliação ajuda muito 🙌 <br><br>
+⭐ Avalie em 30 segundos no Google ⭐</h2>
+            <a href="https://g.page/r/CVyzTUTOyGEdEBM/review"><button class="btn-review"><img src="icons/review.svg" alt="maps review flat icon">Avalie aqui!</button></a>
+    </div>
+    <!--leave a review-->
 
 
     <!--Text-->
@@ -161,36 +204,6 @@
     </div>
     <!--marks-->
     
-    <!--before/after comparison-->
-    <div class="comparisons">
-        <h2>Resultados que realmente fazem diferença!</h2>
-        <div class="comparison-block">
-            <div class="images-comparison">
-                <img class="before-image" src="images/comparison/1/1.webp">
-                <img class="after-image" src="images/comparison/1/2.webp">
-            </div>
-            <div class="slider-line"></div>
-            <div class="slider-button"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="black" class="size-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 15 12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9" />
-            </svg>
-            </div>
-            <input class="slider" type="range" min="0" max="100" value="50">
-        </div>
-
-        <div class="comparison-block">
-            <div class="images-comparison">
-                <img class="before-image" src="images/comparison/2/1.webp">
-                <img class="after-image" src="images/comparison/2/2.webp">
-            </div>
-            <div class="slider-line"></div>
-            <div class="slider-button"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="black" class="size-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 15 12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9" />
-            </svg>
-            </div>
-            <input class="slider" type="range" min="0" max="100" value="50">
-        </div>
-    </div>
-    <!--before/after comparison-->
     
     
     <!--About us-->
@@ -220,14 +233,14 @@
         <label for="services"></label>
         <select required name="services" id="services">
             <option value="" disabled selected>Selecione um serviço</option>
+            <hr>
             <option value="Limpeza Externa">Limpeza Externa</option>
             <option value="Limpeza Completa">Limpeza Completa</option>
             <option value="Higienização">Higienização</option>
             <option value="Pintura Automotiva">Pintura Automotiva</option>
-            <option value="Elétrica automotiva">Elétrica Automotiva</option>
+            <option value="Elétrica automotiva">Elétrica Automotiva</option >
             <option value="Polimento de Fárol">Polimento de Fárol</option>
             <option value="Pequenos Reparos">Pequenos Reparos</option>
-            <option value="Outros Serviços">Outros Serviços</option>
         </select>  
         <button id="send-mensage"><img src="icons/whatsapp.svg" alt="whatsapp icon">Enviar mensagem</button>
 

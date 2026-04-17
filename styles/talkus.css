@@ -58,7 +58,16 @@
     font-size: 20px;
     color: white;
     align-self: center;
+    transition: .2s ease-out;
     background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+
+     
+    &:open{
+        background-color: black;
+        color: #ffe3e9;
+    }
+
 }
 
 .talk-us button{
@@ -74,6 +83,7 @@
     color: white;
     box-shadow: #ff0037b6 0px 0px 10px 6px;
     transition: .6s ease-in-out;
+    cursor: pointer;
 }
 
 .talk-us button:hover{

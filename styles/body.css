@@ -21,6 +21,14 @@ body{
     align-self: center;
 }
 
+.main h2{
+    padding: 10px;
+    color: white;
+    font-size: large;
+}
+
+
+
 @media screen and (min-width: 768px) {
   
     .main{
@@ -30,5 +38,9 @@ body{
         margin: 0 auto;
     }
 
+    .main h2{
+    text-align: center;
+    font-size: xx-large;
+}
 
 }

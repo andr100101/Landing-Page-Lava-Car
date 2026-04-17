@@ -53,8 +53,8 @@
 }
 
 .service-block img{
-    max-height: 80px;
-    max-width: 100px;
+    max-width: 160px;
+    width: auto;
     align-self: center;
     transition: .3s ease-in-out;
 }

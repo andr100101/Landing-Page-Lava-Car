@@ -1,28 +1,23 @@
 .review-us{
-    text-align: center;
-    gap: 10px;
-    transition: .5s ease-in-out;
-    background-color: #00000073;
-    align-items: center;
-    padding: 10px;
     display: flex;
     flex-direction: column;
-    margin: 30px;
+    align-items: center;
+    gap: 30px;
+    transition: .5s ease-in-out;
+    background-color: #00000073;
+    padding: 10px;
+    margin: 20px;
     border-color: #FF0037;
     border-style: solid;
     border-radius: 20px;
+    transition: 1.2s cubic-bezier();
+    transform: translateX(-100%);
 
-
-    a{
-        text-decoration: none;
-    }
     .btn-review{
         padding: 10px;
         display: flex;
-        align-items: center;  
-        align-content: center;
         border-color: #FF0037;
-        border-radius: 10px;
+        border-radius: 15px;
         text-align: center;
         font-size: larger;
         background-color: #FF0037;
@@ -39,34 +34,38 @@
     }
 
     .btn-review:hover{
-        background-color: #1b1b1b4b;
+        background-color: #ff00374d;
         box-shadow: #ff003759 0px 0px 5px 10px;
         
     }
-    
-    h2{
-        font-size: larger;
-    }
 
+}
 
+.review-us a{
+    text-decoration: none;
+
+}
+
+.review-us h2{
+    font-size: medium;
+    text-align: center;
 }
 
 .review-us:hover{
     background-color: rgba(0, 0, 0, 0.753);
 }
 
-
 @media screen and (min-width: 900px){
     .review-us{
 
         h2{
-            text-align: left;
             font-size: x-large;
-            z-index: 5;
         }
 
         .btn-review{
             font-size: xx-large;
         }
+
     }
+    
 }

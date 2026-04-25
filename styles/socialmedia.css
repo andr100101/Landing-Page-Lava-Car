@@ -1,0 +1,66 @@
+.social-media{
+    display: flex;
+    flex-direction: column;
+    background-color: #131313;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.social-media a{
+    text-decoration: none;
+    align-self: center;
+}
+
+.social-media .insta-info{
+    display: flex;
+    padding: 5px;
+    cursor: pointer;    
+}
+
+.social-media .insta-info button{
+    margin-left: 10px;
+    background-color: #0095F6;
+    padding: 5px;
+    color: white;
+    border: none;
+    font-size: small;
+    border-radius: 5px;
+    cursor: pointer;    
+}
+
+
+.social-media .insta-info .insta-txt h2,
+.social-media .insta-info .insta-txt p {
+    padding-left: 10px;
+    color: white;
+    margin: 0;
+    text-align: left;
+    font-size: small;
+}
+
+.social-media .insta-info .insta-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    gap: 2px;
+}
+
+.social-media img{
+    max-height: 80px;
+}
+
+@media screen and (min-width: 768px) {
+    .social-media img{
+        max-height: 120px;
+    }
+
+    .social-media .insta-info .insta-txt h2,
+    .social-media .insta-info .insta-txt p {
+    font-size: larger;
+    }
+
+    .social-media .insta-info button{
+        font-size: large;
+    }
+    
+}

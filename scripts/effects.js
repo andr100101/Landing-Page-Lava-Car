@@ -18,7 +18,7 @@ window.addEventListener('scroll', () => {
         services.forEach(service => {
             service.classList.add('move');
         });
-        if(window.scrollY > 2500){
+        if(window.scrollY > 2200){
             review.style.transform = "translateX(0%)"
             mensageBox.style.transform = "translateY(0%)";
             if(window.scrollY > 3000){

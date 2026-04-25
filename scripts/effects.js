@@ -10,7 +10,7 @@ const review = document.getElementById("review");
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 window.addEventListener('scroll', () => {
-    if(window.scrollY > 800){
+    if(window.scrollY > 650){
         maps.classList.add('scroll');
         landOverlay.classList.add('scroll');
         
